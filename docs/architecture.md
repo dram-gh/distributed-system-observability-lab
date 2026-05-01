@@ -74,6 +74,10 @@ or augmented with managed services or a more robust Helm deployment.
 
 ---
 
+## Cluster setup
+
+Single control-plane node, no workers.  The cluster is created with `kind-config.yaml` and bootstrapped via `scripts/setup-cluster.sh`. Teardown is `scripts/teardown-cluster.sh`.
+
 ## Open questions
 
 - Should the worker pull from a queue (Redis/in-memory) or just receive HTTP calls?

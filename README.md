@@ -27,7 +27,7 @@ The application itself is intentionally minimal. The focus is on the observabili
 | 2 | kind cluster, namespace, cluster config | Planned |
 | 3 | Core services (frontend, backend, worker) | Planned |
 | 4 | Prometheus + Grafana | Planned |
-| 5 | Loki + Promtail / Alloy ? log aggregation | Planned |
+| 5 | Loki + Promtail log aggregation | Planned |
 | 6 | k6 load testing | Planned |
 | 7 | Failure injection and alerting | Planned |
 
