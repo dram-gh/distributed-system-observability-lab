@@ -1,0 +1,40 @@
+# kind cluster artifacts
+kubeconfig
+kubeconfig-*
+.kube/
+
+# Helm
+*.tgz
+charts/
+
+# k6 output
+k6-results/
+*.k6.json
+
+# Grafana local data
+grafana-data/
+
+# Prometheus local data
+prometheus-data/
+
+# Loki local data
+loki-data/
+
+# secrets — never commit these
+*.env
+.env*
+secrets/
+*-secret.yaml
+*-secrets.yaml
+
+# macOS
+.DS_Store
+
+# editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# logs
+*.log
